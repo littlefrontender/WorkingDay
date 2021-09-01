@@ -64,8 +64,21 @@ input[type='button'] {
 }
 
 @media (max-width: 375px) {
-    .day {
-        max-width: 100%;
-        height: auto;
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .days,
+    .month,
+    .year {
+        font-size: 12px;
+    }
+
+    .button {
+        font-size: 13px;
     }
 }
