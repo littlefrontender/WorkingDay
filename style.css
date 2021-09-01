@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     font-weight: 400;
     text-align: center;
@@ -57,4 +61,11 @@ input[type='button'] {
 .container__year {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 375px) {
+    .day {
+        max-width: 100%;
+        height: auto;
+    }
 }
