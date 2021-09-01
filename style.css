@@ -1,0 +1,61 @@
+h1 {
+    font-family: 'Glory', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.day {
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: linear-gradient(rgb(164, 241, 255), #fff);
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select {
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.days {
+    width: 55px;
+}
+
+.month {
+    width: 100px;
+}
+
+.year {
+    width: 65px;
+}
+
+input[type='button'] {
+    display: block;
+    background: linear-gradient(#f7f476, rgb(252, 65, 65));
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.container__day,
+.container__month,
+.container__year {
+    display: flex;
+    align-items: center;
+}
