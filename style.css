@@ -64,7 +64,7 @@ input[type='button'] {
 }
 
 @media (max-width: 375px) {
-    h1 {
+   h1 {
         font-size: 24px;
     }
 
@@ -80,5 +80,13 @@ input[type='button'] {
 
     .button {
         font-size: 13px;
+    }
+
+    .month {
+        width: 70px;
+    }
+
+    .days {
+        width: 40px;
     }
 }
